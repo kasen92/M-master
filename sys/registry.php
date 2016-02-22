@@ -41,7 +41,7 @@ class Registry{
 		}	
 	}
 
-	function loadConf(){
+	function load_conf(){
 		$file=APP.'config.json';
 		$jsonStr=file_get_contents($file);//volcamos el fichero a la variable string
 		$arrayJson=json_decode($jsonStr);//generamos un array asociativo con los datos del string

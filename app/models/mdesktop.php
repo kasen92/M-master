@@ -1,9 +1,9 @@
 <?php
 
-	class mUser extends Model{
+	class mDesktop extends Model{
+
 		function __construct(){
 			parent::__construct();
+			
 		}
 	}
-
-
